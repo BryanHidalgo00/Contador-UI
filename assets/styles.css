@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tiro Bangla', serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(28,37,46);
+background: radial-gradient(circle, rgba(28,37,46,1) 62%, rgba(23,28,34,1) 84%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 800px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__numbers{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+}
+.numbers__1{
+    width: calc(100%/4);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+
+}
+.txt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    justify-content: center;
+    font-size: 25px;
+}
+.number{
+    width: 70%;
+    height: 100%;
+    border: 3px solid #080F15;
+    background-color: #141F23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D8DBE0;
+    font-size: 70px;
+}
